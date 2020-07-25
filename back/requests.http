@@ -1,0 +1,63 @@
+POST http://localhost:3333/login
+content-type: application/json
+
+{
+    "email": "wey@admin",
+    "pass": "123"
+}
+
+
+###
+
+POST http://localhost:3333/register
+content-type: application/json
+
+{
+    "email": "wey@admin",
+    "pass": "123"
+}
+
+###
+GET http://localhost:3333/users
+
+###
+GET http://localhost:3333/photo/logo-restcom-ok.png
+
+###
+POST http://localhost:3333/update
+content-type: application/json
+
+{   
+    "id":"5f18994116abec06dc26d4b6",
+    "email": "admin@admin",
+    "pass": "123",
+    "name":"wesley"
+}
+###
+POST http://localhost:3333/todo
+content-type: application/json
+
+{   
+    "id":"5f18994116abec06dc26d4b6",
+    "func":"change",
+    "todo":[{"name":"Mingal caraio","status":1}]
+}
+
+###
+POST http://localhost:3333/todo
+content-type: application/json
+
+{   
+    "id":"5f18994116abec06dc26d4b6",
+    "func":"add",
+    "todo":{"name":"Roupa","status":1}
+}
+###
+POST http://localhost:3333/users
+content-type: application/json
+
+{   
+    "id":"5f18994116abec06dc26d4b6"
+}
+
+
