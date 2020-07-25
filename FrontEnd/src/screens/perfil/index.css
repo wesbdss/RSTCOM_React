@@ -1,0 +1,164 @@
+
+@media only screen and (min-width:570px){
+    .container_perfil{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100vh;
+    }
+    
+    .direita_perfil{
+        display: flex;
+        position: absolute;
+        left:25vw;
+        width: 75vw;
+        height: auto;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    
+    .direita_perfil form{
+        display: flex;
+        flex:.8;
+        flex-direction: column;
+    }
+    
+    .direita_perfil form input[type='text'],.direita_perfil input[type='email'],.direita_perfil input[type='password']{
+        margin: 10px;
+        padding: 1vh;
+    }
+    
+    .direita_perfil .outcontainerimage{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px;
+        align-items:center;
+        font-size: 1.5vw;
+    }
+    .direita_perfil .containerimage{
+        border-radius: 50%;
+        width: 10vw;
+        height: 10vw;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .direita_perfil .containerimage:hover{
+        width:11vw;
+        height: 11vw;
+    }
+    
+    .direita_perfil .inputfile{
+        /* input inteiro */
+        min-width: 100%;
+        min-height: 100%;
+        opacity: 0;
+    }
+
+    .direita_perfil form input[type='submit']{
+        align-self: center;
+        width: 50%;
+        margin: 10px;
+        padding: 1.5vh;
+        border-color: transparent;
+        border-color: solid black;
+        border-radius: 15px;
+        background-color: #071AC8;
+        color: white;
+    }
+
+    .direita_perfil form input[type='submit']:hover{
+        background-color: #424ca7;
+        color: white;
+    }
+
+    .direita_perfil form input[type='submit']:active{
+        background-color: #030e6b;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 570px) {
+
+    .container_perfil{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100vh;
+    }
+    
+    .direita_perfil{
+        display: flex;
+        position: absolute;
+        left:25vw;
+        width: 75vw;
+        height: auto;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    
+    .direita_perfil form{
+        display: flex;
+        flex:.8;
+        flex-direction: column;
+    }
+    
+    .direita_perfil form input[type='text'],.direita_perfil input[type='email'],.direita_perfil input[type='password']{
+        margin: 10px;
+        padding: 1vh;
+    }
+    
+    .direita_perfil .outcontainerimage{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px;
+        align-items:center;
+        font-size: 3vw;
+    }
+    .direita_perfil .containerimage{
+        border-radius: 50%;
+        width: 10vw;
+        height: 10vw;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .direita_perfil .containerimage:hover{
+        width:11vw;
+        height: 11vw;
+    }
+    
+    .direita_perfil .inputfile{
+        /* input inteiro */
+        min-width: 100%;
+        min-height: 100%;
+        opacity: 0;
+    }
+
+    .direita_perfil form input[type='submit']{
+        align-self: center;
+        width: 50%;
+        margin: 10px;
+        padding: 1.5vh;
+        border-color: transparent;
+        border-color: solid black;
+        border-radius: 15px;
+        background-color: #071AC8;
+        color: white;
+    }
+
+    .direita_perfil form input[type='submit']:hover{
+        background-color: #424ca7;
+        color: white;
+    }
+
+    .direita_perfil form input[type='submit']:active{
+        background-color: #030e6b;
+        color: white;
+    }
+}

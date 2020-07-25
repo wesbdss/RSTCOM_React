@@ -1,0 +1,223 @@
+
+@media only screen and (min-width:570px){
+
+    .container_todo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100vh;
+    }
+    
+    .direita_todo{
+        display: flex;
+        position: absolute;
+        left:25vw;
+        width: 75vw;
+        top:0;
+        height: auto;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    /* background: rgb(244,244,244);
+background: linear-gradient(0deg, rgba(244,244,244,1) 19%, rgba(255,247,72,1) 98%); */
+    .direita_todo h2{
+        margin-top: 0;
+        text-align: center;
+        font-size: 4vw;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        background: rgb(244,244,244);
+        background: linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,252,72,1) 98%);
+        
+    }
+
+    .direita_todo button[value='marcar']{
+        width: 2vw;
+        height: 2vw;
+        margin: 5px;
+        background-color: white;
+    }
+
+    .direita_todo button[value='desmarcar']{
+        width: 2vw;
+        height: 2vw;
+        margin: 5px;
+        background: rgb(201,237,201);
+        background: linear-gradient(0deg, rgba(201,237,201,1) 0%, rgba(20,255,20,1) 98%);
+    }
+    .direita_todo div{
+        font-size: 2vw;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    
+    .direita_todo div[status='0']{
+        text-decoration: line-through;
+    }
+
+    .todos{
+        height: 70vh;
+        overflow-y: scroll;
+    }
+    .direita_todo .elem1{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .direita_todo button[value='remover']{
+       background-color: transparent;
+       text-decoration: underline;
+       color: red;
+       border: transparent;
+    }
+    .direita_todo input[type='text']{
+        width: 80%;
+        margin: 16px;
+        padding: 10px;
+        font-size: 1.5vw;
+        border: 1px solid #707070;
+        background:transparent;
+        
+    }
+
+    .direita_todo input[type='text']::placeholder{
+        text-decoration: underline;
+        color:#757575;
+        
+    }
+    .direita_todo input[type='submit']{
+        margin-bottom: 20px;
+        border-color: transparent;
+        border-color: solid black;
+        border-radius: 15px;
+        background-color: #071AC8;
+        color: white;
+        width: 10%;
+        padding: 10px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .direita_todo input[type='submit']:active{
+        background-color: #030e6b;
+        color: white;
+    }
+    .direita_todo input[type='submit']:hover{
+        background-color: #424ca7;
+        color: white;
+    }
+    
+    
+    
+    
+}
+
+@media only screen and (max-width: 570px) {
+
+    .container_todo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100vh;
+        overflow:unset;
+    }
+    
+    .direita_todo{
+        display: flex;
+        position: absolute;
+        left:25vw;
+        width: 75vw;
+        top:0;
+        height: auto;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    /* background: rgb(244,244,244);
+background: linear-gradient(0deg, rgba(244,244,244,1) 19%, rgba(255,247,72,1) 98%); */
+    .direita_todo h2{
+        margin-top: 0;
+        text-align: center;
+        font-size: 7vw;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        background: rgb(244,244,244);
+        background: linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,252,72,1) 98%);
+        
+    }
+
+    .direita_todo button[value='marcar']{
+        width: 3vw;
+        height: 3vw;
+        margin: 5px;
+        background-color: white;
+    }
+
+    .direita_todo button[value='desmarcar']{
+        width: 3vw;
+        height: 3vw;
+        margin: 5px;
+        background: rgb(201,237,201);
+        background: linear-gradient(0deg, rgba(201,237,201,1) 0%, rgba(20,255,20,1) 98%);
+    }
+    .direita_todo div{
+        font-size: 5vw;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    
+    .direita_todo div[status='0']{
+        text-decoration: line-through;
+    }
+
+    .todos{
+        height: 80vh;
+        overflow-y: scroll;
+    }
+    .direita_todo .elem1{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .direita_todo button[value='remover']{
+       background-color: transparent;
+       text-decoration: underline;
+       color: red;
+       border: transparent;
+    }
+    .direita_todo input[type='text']{
+        width: 60%;
+        margin: 5px;
+        padding: 5px;
+        font-size: 3vw;
+        border: 1px solid #707070;
+        background:transparent;
+        
+    }
+
+    .direita_todo input[type='text']::placeholder{
+        text-decoration: underline;
+        color:#757575;
+        
+    }
+    .direita_todo input[type='submit']{
+        margin-bottom: 20px;
+        border-color: transparent;
+        border-color: solid black;
+        border-radius: 15px;
+        background-color: #071AC8;
+        color: white;
+        width: 20%;
+        padding: 5px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .direita_todo input[type='submit']:active{
+        background-color: #030e6b;
+        color: white;
+    }
+    .direita_todo input[type='submit']:hover{
+        background-color: #424ca7;
+        color: white;
+    }
+}

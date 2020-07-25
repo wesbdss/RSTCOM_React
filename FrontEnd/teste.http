@@ -1,0 +1,27 @@
+GET http://localhost:3333/users
+
+###
+POST http://localhost:3333/todo
+Content-Type: application/json
+
+{"id":"5f18994116abec06dc26d4b6",
+"todo":[
+    {
+        "name":"teste",
+        "status":1
+    },
+    {
+        "name":"comer teu pai",
+        "status":0
+    }
+]}
+
+
+
+###
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{"id":"5f18994116abec06dc26d4b6"
+
+}

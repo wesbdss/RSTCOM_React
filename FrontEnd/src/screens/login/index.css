@@ -1,0 +1,167 @@
+
+@media only screen and (min-width:570px){
+    .container_login{
+        display: flex;
+        flex-direction: row;
+    }
+    .esquerda_login{
+        height:100vh;
+        width: 60%;
+        background-color: red;
+        flex-grow: 5;
+        background-image: url('/bg@2x.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .esquerda_login img{
+        position: absolute;
+        top:30%;
+        left: 8vw;
+        width: 200px;
+    }
+    
+    .direita_login{
+        display: flex;
+        flex-direction: column;
+        margin: 10vw;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+    }
+    .direita_login form{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        justify-content: center;
+        width: 120%;
+       
+    }
+    .direita_login div{
+        color: #707070;
+        padding: 20px;
+        width: 100%;
+    }
+    .direita_login a{
+        font-size: small;
+        color: #424ca7;
+        margin-left: 20px;
+    }
+    .direita_login input[type='text'],.direita_login input[type='password'],.direita_login input[type='email']{
+        margin-bottom: 30px;
+        padding: 16px;
+
+    }
+    .direita_login ::placeholder{
+        text-decoration: underline;
+    }
+    
+    .direita_login input[type='submit']{
+        margin-bottom: 20px;
+        border-color: transparent;
+        border-color: solid black;
+        border-radius: 15px;
+        background-color: #071AC8;
+        color: white;
+        width: 90%;
+        padding: 10px;
+        height: auto;
+        margin: 10px;
+    }
+    .direita_login input[type='submit']:active{
+        background-color: #030e6b;
+        color: white;
+    }
+    .direita_login input[type='submit']:hover{
+        background-color: #424ca7;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .container_login{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100vh;
+        background: rgb(175,175,175);
+        background: linear-gradient(0deg, rgba(175,175,175,1) 0%, rgba(255,255,255,1) 100%);  
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .esquerda_login{
+        height:60vw;
+        width: 100%;
+        background-color: red;
+        background-image: url('/bg@2x.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .esquerda_login img{
+        width: 45%;
+    }
+
+
+    .direita_login{
+        display: flex;
+        top: 60vw;
+        position: absolute;
+        flex-direction: column;
+        height: 30vw;
+        width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+
+       
+    }
+    .direita_login form{
+
+        margin-top: 10px;
+        padding: 10px;
+        flex-direction: row;
+
+    }
+    .direita_login div{
+        color: #707070;
+        padding: 20px;
+    }
+    .direita_login a{
+        font-size: small;
+        color: #424ca7;
+        margin-left: 20px;
+    }
+
+    .direita_login input[type='text'],.direita_login input[type='password'],.direita_login input[type='email']{
+        margin-bottom: 20px !important;
+        padding: 10px !important;
+        width: 85vw !important;
+
+    }
+
+    .direita_login ::placeholder{
+        text-decoration: underline;
+    }
+    
+    .direita_login input[type='submit']{
+        margin-bottom: 20px;
+        border-color: transparent;
+        border-color: solid black;
+        border-radius: 15px;
+        background-color: #071AC8;
+        color: white;
+        width: 90%;
+        padding: 10px;
+        height: auto;
+        margin: 10px;
+
+    }
+    .direita_login input[type='submit']:active{
+        background-color: #030e6b;
+        color: white;
+    }
+    .direita_login input[type='submit']:hover{
+        background-color: #424ca7;
+        color: white;
+    }
+  }
