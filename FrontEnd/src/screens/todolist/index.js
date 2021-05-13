@@ -14,10 +14,10 @@ export default function Todolist(props) {
             localStorage.setItem("data", JSON.stringify(dado))
         }
     }
-    useEffect(() => {
-        //atualuzar quando iniciar a pagina
-        atualiza()
-    })
+    // useEffect(() => {
+    //     //atualuzar quando iniciar a pagina
+    //     atualiza()
+    // })
 
     const handleChange = (e) => {
         setForm({ text: e.target.value })
